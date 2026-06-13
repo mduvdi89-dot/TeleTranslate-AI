@@ -12,7 +12,7 @@ A smart Telegram Dictionary bot powered by Groq AI (Llama 3) with Persian voice-
 🍎 در مک (macOS):
 ابتدا Homebrew را نصب کنید و سپس:
 
-bash
+
     brew install ffmpeg
 🪟 در ویندوز (Windows):
 ۱. فایل FFmpeg را از سایت رسمی دانلود کنید.
@@ -22,7 +22,7 @@ bash
 ۳. آدرس پوشه bin آن را به System Environment Variables (Path) اضافه کنید.
 
 🐧 در لینوکس (Linux/Ubuntu):
-bash
+
     sudo apt update
     sudo apt install ffmpeg
 2️⃣ نصب پایتون و کتابخانه‌ها
@@ -32,23 +32,22 @@ bash
 
 ۱. ابتدا کتابخانه‌های اصلی را نصب کنید:
 
-bash
 pip install aiogram aiohttp pydub SpeechRecognition
 ۲. اگر در لینوکس یا مک با خطای externally-managed-environment مواجه شدید، از دستور زیر استفاده کنید:
 
-bash
+
 pip install aiogram aiohttp pydub SpeechRecognition --break-system-packages
 3️⃣ نحوه اجرا
 ۱. مخزن را کلون کنید:
 
-bash
+
 git clone https://github.com/YOUR_USERNAME/your-repo-name.git
 cd your-repo-name
 ۲. توکن‌های خود را در فایل کد قرار داده و آن را اجرا کنید:
 
 ویندوز:
-cmd
+
     python Dictionary_bot.py
 مک و لینوکس:
-bash
+
     python3 Dictionary_bot.py
