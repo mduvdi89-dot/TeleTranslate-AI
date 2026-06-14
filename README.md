@@ -41,7 +41,7 @@ pip install aiogram aiohttp pydub SpeechRecognition --break-system-packages
 ۱. مخزن را کلون کنید:
 
 
-git clone https://github.com/YOUR_USERNAME/your-repo-name.git
+git clone https://github.com/mduvdi89-dot/TeleTranslate-AI_2
 cd your-repo-name
 ۲. توکن‌های خود را در فایل کد قرار داده و آن را اجرا کنید:
 
